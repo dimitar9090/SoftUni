@@ -1,0 +1,7 @@
+function hours(input) {
+    let name = input[0];
+    let NumberOfProjects = Number(input[1]);
+    let HoursNeeded = NumberOfProjects * 3
+    console.log(`The architect ${name} will need ${HoursNeeded} hours to complete ${NumberOfProjects} project/s.`)
+
+}
