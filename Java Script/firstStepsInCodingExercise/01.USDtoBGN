@@ -1,0 +1,4 @@
+function convertor(input) {
+    let moneyInLeva = Number(input[0]) * 1.79549
+    console.log(moneyInLeva)
+}
